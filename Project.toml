@@ -2,3 +2,7 @@ name = "ja_ml"
 uuid = "acd72bc6-fb11-4384-bc58-ae5b601e83be"
 authors = ["Felix Reuß <reussf@gmail.com>"]
 version = "0.1.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
