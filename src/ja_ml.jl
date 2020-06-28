@@ -1,3 +1,7 @@
 module ja_ml
 
-end # module
+include("draw_neural_net.jl")
+
+export NeuralNet
+
+end # module ja_ml

@@ -1,5 +1,8 @@
+module NeuralNet
+
 using Plots; gr()
 import LinearAlgebra: normalize!
+
 
 function draw_neuron(x, y, r; c=:blue)
 
@@ -137,4 +140,7 @@ function draw_network(neurons_per_layer)
 
 end
 
-draw_network([3, 2, 2])
+export draw_network
+
+#draw_network([3, 2, 2])
+end #module NeuralNet
